@@ -1,87 +1,28 @@
-.settings-header {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 15px -100px;
-    align-items: center;
-}
-.settings-header__title {
+.setting__setting {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 20px;
-    font-weight: 600;
-}
-.settings-main-column {
-    width: 100%;
-    margin-top: 40px;
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
 }
-.settings-main-column:first-child {
+.setting__setting i {
+    opacity: 0.8;
+    margin-right: 20px;
+    font-size: 22px;
+}
+.settings__setting-column-text {
+    opacity: 0.5;
+}
+
+.settings:first-child {
+    padding-bottom: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.settings-main-column__kokoaLab {
-    width: 100%;
-    border-top: 0.1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
+
+.setting__setting:last-child {
+    border-bottom: none;
 }
-.settings-main-column span {
-    margin-left: 10px;
-    font-size: 20px;
-    font-weight: 400;
-}
-.settings-main-column__version {
-    width: 100%;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding-bottom: 40px;
-}
-.settings-main-column__version-title {
-    display: flex;
-    align-items: center;
-}
-.settings-main-column__version--notice {
-    color: rgba(0, 0, 0, 0.5);
-}
-.settings-main-column__notices {
-    display: flex;
-    align-items: center;
-}
-.settings-btLine {
-    width: 100%;
-    border-bottom: 0.1px solid rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-.settings-main-column__themes {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.settings-main-column__themes-notice {
-    color: rgba(0, 0, 0, 0.5);
-}
-.settings-main-column__display,
-.settings-main-column__themes {
-    position: relative;
-}
-.settings__badge {
-    position: absolute;
-    background-color: tomato;
-    width: 15px;
-    height: 15px;
-    border-radius: 7.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-    color: white;
-    font-weight: 600;
-    left: 105px;
-    top: 2px;
+.settings:last-child {
+    padding-top: 20px;
 }

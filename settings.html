@@ -23,74 +23,101 @@
       </div>
     </div>
 
-    <div class="settings-header">
-        <span class="settings-header__back">
-            <i class="fas fa-chevron-left fa-lg"></i>
-        </span>
-        <span class="settings-header__title">Settings</span>
-        <span class="settings-header__search">
-            <i class="fas fa-search fa-lg"></i>
-        </span>
-    </div>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+                <i class="fas fa-chevron-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-2x"></i>
+        </div>
+    </header>
 
-    <main class="main-screen more-screen">
-        <div class="settings-main-column">
-            <div class="settings-main-column__notices">
-                <i class="fas fa-volume-down fa-lg"></i>
-                <span class="settings-main-column__notices-title">Notices</span>
-            </div>
+    </header>
 
-            <div class="settings-main-column__kokoaLab">
-                <i class="fas fa-flask fa-lg"></i>
-                <span class="settings-main-column__kokoaLab-title">Kokoa Lab</span>
-            </div>
+    <main class="main-screen">
+        <ul class="settings">
+            <li class="setting__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-bullhorn fa-lg"></i>
+                    <span class="settings-main-column__notices-title">Notices</span>
+                </div>
+            </li>
 
-            <div class="settings-main-column__version">
-                <div class="settings-main-column__version-title">
+            <li class="setting__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-flask fa-lg"></i>
+                    <span class="settings-main-column__kokoaLab-title">Kokoa Lab</span>
+                </div>
+            </li>
+
+            <li class="setting__setting">
+                <div class="settings__setting-column">
                     <i class="fas fa-info-circle fa-lg"></i>
                     <span class="settings-main-column__version__title">Version</span>
                 </div>
-                <div class="settings-main-column__version--notice">
-                    Latest Version
+                <div class="settings__setting-column-text">Latest Version</div>
+            </li>
+        </ul>
+    
+        <ul class="settings">
+            <li class="setting__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-lock"></i>
+                    <span class="settings-main-column__notices-title">Privacy</span>
                 </div>
-            </div>
-        </div>
+            </li>
 
-        <div class="settings-main-column">
-            <div class="settings-main-column__privacy settings-btLine">
-                <i class="fas fa-lock fa-lg"></i>
-                <span>Privacy</span>
-            </div>
-            <div class="settings-main-column__nitifications settings-btLine">
-                <i class="far fa-bell fa-lg"></i>
-                <span>Notifications</span>
-            </div>
-            <div class="settings-main-column__friends settings-btLine">
-                <i class="far fa-user fa-lg"></i>
-                <span>Friends</span>
-            </div>
-            <div class="settings-main-column__chgats settings-btLine">
-                <i class="far fa-comment fa-lg"></i>
-                <span>Chats</span>
-            </div>
-            <div class="settings-main-column__display settings-btLine">
-                <i class="far fa-sun fa-lg"></i>
-                <span>Display</span>
-                <span class="settings__badge">N</span>
-            </div>
-            <div class="settings-main-column__themes settings-btLine">
-                <div>
-                    <i class="fas fa-brush fa-lg"></i>
-                    <span>Themes</span>
-                    <span class="settings__badge">N</span>
+
+            <li class="setting__setting">
+                <div class="settings__setting-column">
+                    <i class="far fa-bell"></i>
+                    <span class="settings-main-column__kokoaLab-title">Notifications</span>
                 </div>
-                <div class="settings-main-column__themes-notice">Default theme</div>
-            </div>
-            <div class="settings-main-column__call">
-                <i class="fas fa-phone-alt fa-lg"></i>
-                <span>Call</span>
-            </div>
-        </div>
+            </li>
+
+
+            <li class="setting__setting">
+                <div class="settings__setting-column">
+                    <i class="far fa-user"></i>
+                    <span class="settings-main-column__kokoaLab-title">Friends</span>
+                </div>
+            </li>
+
+            <li class="setting__setting">
+                <div class="settings__setting-column">
+                    <i class="far fa-comment"></i>
+                    <span class="settings-main-column__kokoaLab-title">Chats</span>
+                </div>
+            </li>
+
+            <li class="setting__setting">
+                <div class="settings__setting-column">
+                    <i class="far fa-sun"></i>
+                    <span class="settings-main-column__kokoaLab-title">Display</span>
+                </div>
+            </li>
+
+            <li class="setting__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-brush"></i>
+                    <span class="settings-main-column__version__title">Themes</span>
+                </div>
+                <div class="settings__setting-column-text">Default theme</div>
+            </li>
+
+            <li class="setting__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-phone-alt"></i>
+                    <span class="settings-main-column__kokoaLab-title">Call</span>
+                </div>
+            </li>
+
+        </ul>
 
     </main>
 
