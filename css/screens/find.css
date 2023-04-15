@@ -87,3 +87,22 @@
 .open-chat__post-heart span {
     margin-left: 3px;
 }
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: tomato;
+        transform: scale(1.4);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+.open-chat__post-heart:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
